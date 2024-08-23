@@ -1,8 +1,29 @@
-# React + Vite
+# Markdown Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Markdown editor with a live preview built using React. This application allows users to write markdown text in an editor and instantly preview the formatted output. The editor also supports dark mode and a manual refresh button for updating the preview.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Markdown Preview**: See the rendered markdown as you type.
+- **Dark Mode**: Toggle between light and dark themes for a better editing experience.
+- **Manual Refresh Option**: If real-time updates are not working, use the refresh button to manually update the preview.
+- **Scrollable Editor and Preview**: Both the editor and preview panes are scrollable without displaying scrollbars.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- **Node.js** (v14 or later)
+- **npm** (v6 or later) or **yarn** (v1.22 or later)
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/markdown-editor.git
+   cd markdown-editor
