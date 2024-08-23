@@ -1,6 +1,6 @@
 # Markdown Editor
 
-A simple Markdown editor with a live preview built using React. This application allows users to write markdown text in an editor and instantly preview the formatted output. The editor also supports dark mode and a manual refresh button for updating the preview.
+A simple Markdown editor with a live preview built using React. This application allows users to write markdown text in an editor and instantly preview the formatted output. The editor also supports dark mode and simultaneously updating the preview.
 
 ## Features
 
