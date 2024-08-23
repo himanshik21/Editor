@@ -27,3 +27,12 @@ Make sure you have the following installed on your system:
    ```bash
    git clone https://github.com/your-username/markdown-editor.git
    cd markdown-editor
+2. **Install the dependencies:**:
+
+   ```bash
+   npm install
+
+3. **Start the development server**:
+
+  ```bash
+  npm run dev
