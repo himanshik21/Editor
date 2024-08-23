@@ -6,7 +6,7 @@ A simple Markdown editor with a live preview built using React. This application
 
 - **Live Markdown Preview**: See the rendered markdown as you type.
 - **Dark Mode**: Toggle between light and dark themes for a better editing experience.
-- **Manual Refresh Option**: If real-time updates are not working, use the refresh button to manually update the preview.
+- **Real Time update**: Real time update on preview, when anything write on editor.
 - **Scrollable Editor and Preview**: Both the editor and preview panes are scrollable without displaying scrollbars.
 
 ## Getting Started
