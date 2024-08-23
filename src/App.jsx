@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Editor from "./components/Editor";
 import Preview from "./components/Preview";
 import "./App.css";
@@ -10,6 +10,14 @@ const App = () => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+
+   useEffect(() => {
+     if (darkMode) {
+       document.body.classList.add("dark-mode");
+     } else {
+       document.body.classList.remove("dark-mode");
+     }
+   }, [darkMode]);
 
   return (
     <div className={`container ${darkMode ? "dark-mode" : ""}`}>

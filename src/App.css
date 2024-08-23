@@ -8,17 +8,16 @@ html {
   overflow-y: scroll;
 }
 
+/* Hide scrollbar for Chrome, Safari, and Opera */
 body::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
 
+/* Hide scrollbar for IE, Edge, and Firefox */
 body {
-  scrollbar-width: none;
-}
-
-body {
-  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
 .container {
@@ -105,7 +104,8 @@ textarea {
 
 /* Dark Mode Styles */
 .dark-mode {
-  background-color: #1e1e1e;
+  background-color: #2c2c2c;
+  color: #ffffff;
 }
 
 .dark-mode .editor-container {
