@@ -11,13 +11,13 @@ const App = () => {
     setDarkMode(!darkMode);
   };
 
-   useEffect(() => {
-     if (darkMode) {
-       document.body.classList.add("dark-mode");
-     } else {
-       document.body.classList.remove("dark-mode");
-     }
-   }, [darkMode]);
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  }, [darkMode]);
 
   return (
     <div className={`container ${darkMode ? "dark-mode" : ""}`}>
